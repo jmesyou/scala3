@@ -1199,6 +1199,7 @@ class Definitions {
   @tu lazy val StableNullAnnot: ClassSymbol = requiredClass("scala.annotation.stableNull")
   @tu lazy val InlineAnnot: ClassSymbol = requiredClass("scala.inline")
   @tu lazy val NoInlineAnnot: ClassSymbol = requiredClass("scala.noinline")
+  @tu lazy val SpecializedByAnnot: ClassSymbol = requiredClass("scala.specialized.specializedBy")
 
   @tu lazy val JavaRepeatableAnnot: ClassSymbol = requiredClass("java.lang.annotation.Repeatable")
 
